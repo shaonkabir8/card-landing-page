@@ -1,33 +1,51 @@
 # Card Landing Page Design
 
-## কাজঃ-
+## Task-
 
-- [ডেমো সাইট](https://38b732f972d36118.demo.carrd.co/) এর মত আরেকটি সাইট তৈরী করা।
+- Create a landing page same as [Demo Site](https://38b732f972d36118.demo.carrd.co/)
 
-## ডেভেলপমেন্ট
+## Development
 
-প্রথমে NodeJS ও Yarn ইন্সটল করে নিন, এবং প্রজেক্টটি ক্লোন করুন। এরপর নিচের ধাপগুলো অনুসরণ করুন।
+Before doing everything, you've install `NodeJS` & `Yarn` first to follow the next steps.
 
-১ - ডিপেন্ডেন্সিগুলো ইন্সটল করুন
+1 - Install the Dependencies
+Navigate into your new site’s directory and install Dependencies.
 
 ```
 yarn
 ```
 
-২ - ডেভেলপমেন্ট মোডে চালু করুন
+2 - Start developing.
 
 ```
 yarn run start
 ```
 
-ব্রাউজারে http://127.0.0.1:1234/ লিংকটি ওপেন করুন। সবকিছু ঠিকঠাক থাকলে আপনি ওয়েবসাইটটি দেখতে পারবেন।
+If everything is completely fine, you'll find your site running at http://127.0.0.1:1234/
 
-৩ - বিল্ড করতে
+3 - Production Build
 
 ```
 yarn run build
 ```
 
-সবকিছু dist ফোল্ডারে জমা হবে।
+Once it complete, you'll find all static files into a directory named `dist`
 
-**#হ্যাপি_কোডিং :)**
+## Let's have a look what's inside!
+
+📦src
+┣ 📂assets
+┃ ┣ 📂img
+┃ ┃ ┗ 📜photo.jpg
+┃ ┗ 📂sass
+┃ ┃ ┣ 📜_base.scss
+┃ ┃ ┣ 📜_home.scss
+┃ ┃ ┣ 📜_variables.scss
+┃ ┃ ┗ 📜main.scss
+┣ 📜index.html
+┗ 📜script.js
+⛔.gitignore
+📜README.md
+⚙yarn.lock
+
+**#Happy_Coding :)**
