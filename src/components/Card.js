@@ -1,13 +1,13 @@
 import React from "react";
-import Photo from "../assets/img/photo.jpg";
+import Featured_Image from "../assets/img/photo.jpg";
 
-export default function Card() {
-  return (
-    <section className="card">
+const card = () => (
+  <section className="card">
+    <div className=" card__area">
       <div className="card__content">
         <h1 className="card__header">
-          John Wick{" "}
-          <span className="card__header--meta">Creative Photographer</span>{" "}
+          Cayce Pollard
+          <span className="card__header--meta">Multiverse Analist</span>
         </h1>
         <p className="card__paragraph">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
@@ -18,26 +18,32 @@ export default function Card() {
         <div className="menu">
           <ul className="menu__list">
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="#work" className="menu__link">
                 Work
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="#blog" className="menu__link">
                 Blog
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="#contact" className="menu__link">
                 Contact
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="card__img">
-        <img src={Photo} alt="Photo" className="card__img--item" />
-      </div>
-    </section>
-  );
-}
+    </div>
+    <div className="card-img">
+      <img
+        src={Featured_Image}
+        alt="Featured_Image"
+        className="card-img__item"
+      />
+    </div>
+  </section>
+);
+
+export default card;

@@ -2,14 +2,10 @@ import React from "react";
 import Card from "./Card";
 import Layout from "./Layout";
 
-function App() {
-  return (
-    <Layout>
-      <div className="row">
-        <Card />
-      </div>
-    </Layout>
-  );
-}
+const app = () => (
+  <Layout>
+    <Card />
+  </Layout>
+);
 
-export default App;
+export default app;

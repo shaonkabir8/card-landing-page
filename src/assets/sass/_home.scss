@@ -1,9 +1,9 @@
-.wrapper {
+.container {
   max-width: 114rem;
   margin: 0 auto;
-}
-.container {
-  padding: 5rem 0;
+  &__inner {
+    padding: 5rem 0;
+  }
 }
 .card {
   display: flex;
