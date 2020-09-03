@@ -4,10 +4,12 @@ import Card from "./Card";
 import Footer from "./Footer";
 
 const app = () => (
-  <Layout>
-    <Card />
+  <React.Fragment>
+    <Layout>
+      <Card />
+    </Layout>
     <Footer />
-  </Layout>
+  </React.Fragment>
 );
 
 export default app;

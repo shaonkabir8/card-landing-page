@@ -1,5 +1,5 @@
 import React from "react";
-import Featured_Image from "../assets/img/photo.jpg";
+import Featured_Image from "../assets/images/featured_image.jpg";
 
 const card = () => (
   <section className="card">
