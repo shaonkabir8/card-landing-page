@@ -1,14 +1,9 @@
-.container {
-  max-width: 114rem;
-  margin: 0 auto;
-}
 .card {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   background-color: $color-white;
   box-sizing: content-box;
-  margin: 5rem 0;
 
   &__area,
   &-img {
