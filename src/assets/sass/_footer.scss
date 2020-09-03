@@ -1,16 +1,13 @@
 .footer {
-  padding-top: 5rem;
+  padding-bottom: 4rem;
 
   &__content {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
   }
   &__social {
     &--list {
-      margin: 0;
-      padding: 0;
-      list-style: none;
       display: flex;
     }
     &--item {
@@ -25,15 +22,16 @@
       margin-right: 2rem;
 
       svg {
-        fill: #b3b3b3;
+        fill: $color-light-grey;
         transition: fill 0.2s linear;
         &:hover {
-          fill: #5d5b5b;
+          fill: $color-light-black;
         }
       }
     }
   }
   &__copyright {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    color: $color-light-grey;
   }
 }

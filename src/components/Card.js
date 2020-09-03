@@ -10,10 +10,9 @@ const card = () => (
           <span className="card__header--meta">Multiverse Analist</span>
         </h1>
         <p className="card__paragraph">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
-          earum, minus odit similique minima magnam fuga reiciendis
-          exercitationem rerum dolor quisquam amet molestias? Quas adipisci ab
-          eum sed aperiam repudiandae?
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Duis dapibus
+          rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per
+          nostra inceptos.
         </p>
         <div className="menu">
           <ul className="menu__list">
@@ -23,8 +22,8 @@ const card = () => (
               </a>
             </li>
             <li className="menu__item">
-              <a href="#blog" className="menu__link">
-                Blog
+              <a href="#about" className="menu__link">
+                About
               </a>
             </li>
             <li className="menu__item">

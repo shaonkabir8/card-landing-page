@@ -1,15 +1,14 @@
 .container {
   max-width: 114rem;
   margin: 0 auto;
-  &__inner {
-    padding: 5rem 0;
-  }
 }
 .card {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   background-color: $color-white;
+  box-sizing: content-box;
+  margin: 5rem 0;
 
   &__area,
   &-img {
@@ -17,7 +16,8 @@
   }
 
   &__content {
-    padding: 5rem;
+    padding: 7rem;
+    padding-top: 0;
   }
   &__header {
     font-size: 3rem;
@@ -26,22 +26,21 @@
     letter-spacing: 12px;
     &--meta {
       display: block;
-      font-weight: 400;
-      margin: 2.4rem 0;
+      font-weight: 300;
+      margin: 2.7rem 0;
       letter-spacing: 5px;
-      font-size: 47%;
+      font-size: 45%;
     }
   }
   &__paragraph {
     margin: 4rem 0;
+    margin-bottom: 7rem;
     font-size: 1.8rem;
     line-height: 1.7;
   }
 
   // Call to action button style
   .menu {
-    margin-top: 7rem;
-
     &__list {
       display: flex;
       margin: 0;
@@ -49,22 +48,23 @@
       list-style: none;
     }
     &__item {
-      margin-right: 2rem;
+      margin-right: 3rem;
     }
     &__link {
-      padding: 1rem 2rem;
-      color: #474747;
-      border: 0.5px solid currentColor;
-      font-size: 1.2rem;
+      padding: 1.4rem 2rem;
+      color: $color-black;
+      border: 0.5px solid $color-btn-border;
+      font-size: 1.1rem;
       border-radius: 5px;
       text-decoration: none;
-      font-weight: 400;
+      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 4px;
       transition: all 0.3s linear;
 
       &:hover {
-        color: #1ccbd6;
+        color: $color-btn-hover;
+        border-color: currentColor;
       }
     }
   }
