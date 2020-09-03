@@ -1,8 +1,6 @@
 # Card Landing Page Design
 
-<img src="https://img.shields.io/badge/Status-Complete-brightgreen.svg?style=flat" />
-<img src="https://img.shields.io/badge/Code_Quality-well_organized-green.svg" />
-<img src="https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%23textarea" />
+<img src="https://img.shields.io/badge/Status-Complete-brightgreen.svg?style=flat" /> <img src="https://img.shields.io/badge/Code_Quality-well_organized-green.svg" /> <img src="https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%23textarea" />
 
 ##  Task
 
