@@ -1,8 +1,15 @@
 # Card Landing Page Design
 
-## Task-
+<img src="https://img.shields.io/badge/Status-Complete-brightgreen.svg?style=flat" />
+<img src="https://img.shields.io/badge/Code_Quality-well_organized-green.svg" />
+<img src="https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%23textarea" />
 
-- Create a landing page same as [Demo Site](https://38b732f972d36118.demo.carrd.co/)
+##  Task
+
+- [x] Create a landing page using  **React**/Nextjs/Gatsby  same as [Demo Site](https://38b732f972d36118.demo.carrd.co/)
+- [x] Valid HTML and CSS code.
+- [x] Clean code and folder structure.
+- [x] Responsive design.
 
 ## Development
 
@@ -38,14 +45,12 @@ Let's have a look on our entire Directory structure and it's file tree.
 ```bash
     .
     ├── public
-    │   ├─ favicon.ico
-    │   ├─ index.html
-    │   └─ manifest.json
+    │   └─index.html
     ├── src
     │   ├─ assets
     │   │  ├─ image
     │   │  │  └─ featured_image.jpg
-    │   │  └── sass
+    │   │  └─ sass
     │   │      ├─ _base.scss
     │   │      ├─ _variables.scss
     │   │      ├─ _home.scss
@@ -60,13 +65,12 @@ Let's have a look on our entire Directory structure and it's file tree.
     │   │      └─ Layout.js
     │   └──index.js
     ├── .gitignore
-    ├── .prettierrc
     ├── package.json
     ├── README.md
     └── yarn.lock
 ```
 
-So, What are your waiting for? 😐
+So, what are your waiting for? 😐
 Let's have some fun.
 
 **#Happy_Coding** 🙂
